@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400;1,600&display=swap');
+
+.container {
+  width: 600px;
+  margin: 30px auto;
+}
+div {
+  display: block;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.btn-white {
+  background-color: #0135d7;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+.btn-white :hover {
+  background-color: #ffffff;
+  color: #0135d7;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+body {
+    background: #F7F9FC;
+    color: #414142;
+    font-family: 'Work sans', serif;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 130%;
+  }
+  h1, h2, h3 {
+    font-family: 'Work sans', sans-serif;
+  }
+  h1 {
+    color: #0135d7;
+    font-size: 32px;
+    font-weight: 900;
+  }
+  h2 {
+    color: #1e1858;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+  a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #0135d7;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  a:hover {
+    color: black;
+  }
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
